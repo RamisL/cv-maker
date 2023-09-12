@@ -6,13 +6,13 @@ on:
       - '**/*.svelte'
       - '**/*.ts'
       - '**/*.json'
-      - '**/build-test.yml'
+      - '**/build-test-old.yml'
   pull_request: 
     paths:
       - '**/*.svelte'
       - '**/*.ts'
       - '**/*.json'
-      - '**/build-test.yml'
+      - '**/build-test-old.yml'
 
 jobs:
   build-test:

@@ -1,0 +1,14 @@
+name: Hello World
+
+on:
+  push:
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+
+    steps:
+      #recupéré les actions de la commu
+      - uses: actions/checkout@v4
+      #-name: Run a onle-line script
+      - run: echo Hello, world!
