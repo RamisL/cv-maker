@@ -70,6 +70,10 @@ jobs:
 
     needs: build
     steps:
+      - name: Checkout
+        #recupéré les actions de la commu
+        uses: actions/checkout@v4
+
       - name: Setup PNPM
         uses: pnpm/action-setup@v2.4.0
         with:
